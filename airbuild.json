@@ -101,8 +101,6 @@
         "--compare {source}/src/codec/*.h": "include/skia/src/codec/",
         "--compare {source}/src/core/*.h": "include/skia/src/core/",
         "--compare {source}/src/effects/*.h": "include/skia/src/effects/",
-        "--compare {source}/src/effects/imagefilters/*.h": "include/skia/src/effects/imagefilters/",
-        "--compare {source}/src/fonts/*.h": "include/skia/src/fonts/",
         "--compare {source}/src/gpu/*.h": "include/skia/src/gpu/",
         "--compare {source}/src/gpu/vk/*.h": "include/skia/src/gpu/vk/",
         "--compare {source}/src/gpu/text/*.h": "include/skia/src/gpu/text/",
@@ -131,7 +129,7 @@
         "--compare {source}/src/svg/*.h": "include/skia/src/svg/",
         "--compare {source}/src/utils/*.h": "include/skia/src/utils/",
         "--compare {source}/src/xml/*.h": "include/skia/src/xml/",
-        "--compare {source}/src/xps/*.h": "include/skia/src/xps/"                                                  
+        "--compare {source}/src/xps/*.h": "include/skia/src/xps/"
       }
     }
   }
