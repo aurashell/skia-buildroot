@@ -11,8 +11,11 @@
       "precfg": [
         "cd {source}; python2 tools/git-sync-deps"
       ],
-      "configure-flags": "is_debug=false",
+      "configure-flags": "is_debug=false,skia_use_angle=true",
       "install-copy": {
+        "--compare {build}/libEGL.so": "lib",
+        "--compare {build}/libGLESv2.so": "lib",
+
         "--compare {build}/libdng_sdk.a": "lib",
         "--compare {build}/libexpat.a": "lib",
         "--compare {build}/libharfbuzz.a": "lib",
